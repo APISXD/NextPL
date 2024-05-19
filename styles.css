@@ -86,3 +86,45 @@ h1 {
     padding: 10px;
     background-color: 	#38003c;
 }
+
+/* Add these CSS rules to make the HTML document responsive */
+
+/* For smaller devices, reduce padding on table cells */
+@media only screen and (max-width: 600px) {
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* Center align table cells for smaller screens */
+@media only screen and (max-width: 768px) {
+    th, td {
+        text-align: center;
+    }
+}
+
+/* Adjust font size and padding for legend items on smaller screens */
+@media only screen and (max-width: 600px) {
+    #legend .legend-item {
+        padding: 5px;
+    }
+    #legend .legend-item span {
+        font-size: 12px;
+    }
+}
+
+/* Adjust margin and padding for predict button on smaller screens */
+@media only screen and (max-width: 768px) {
+    #predictButton {
+        margin: 10px auto;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Adjust margin for legend on smaller screens */
+@media only screen and (max-width: 600px) {
+    #legend {
+        margin-top: 10px;
+    }
+}
