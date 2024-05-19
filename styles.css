@@ -94,14 +94,11 @@ h1 {
     th, td {
         padding: 8px;
     }
+    
 }
 
 /* Center align table cells for smaller screens */
-@media only screen and (max-width: 768px) {
-    th, td {
-        text-align: center;
-    }
-}
+
 
 /* Adjust font size and padding for legend items on smaller screens */
 @media only screen and (max-width: 600px) {
@@ -114,17 +111,16 @@ h1 {
 }
 
 /* Adjust margin and padding for predict button on smaller screens */
-@media only screen and (max-width: 768px) {
-    #predictButton {
-        margin: 10px auto;
-        padding: 8px 16px;
-        font-size: 14px;
-    }
-}
+
 
 /* Adjust margin for legend on smaller screens */
 @media only screen and (max-width: 600px) {
     #legend {
         margin-top: 10px;
+    }
+    .club-logo {
+        width: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
